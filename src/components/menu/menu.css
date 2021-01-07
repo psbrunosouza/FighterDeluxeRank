@@ -1,0 +1,23 @@
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu .title{
+  text-align: center;
+}
+
+
+.menu .menu-tabs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.menu .menu-tabs .menu-item{
+  margin: 0 10px 0 10px;
+}
+

@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 28px;
+  line-height: 38px;
+  font-family: 'Open Sans Condensed', sans-serif;;
+}
+
+body{
+  background-color: #000;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}

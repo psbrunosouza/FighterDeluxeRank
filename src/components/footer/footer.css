@@ -1,0 +1,12 @@
+.footer{
+  margin-bottom: 30px;
+}
+
+.footer p{
+  font-size: 20px;
+}
+
+.footer p a{
+  color:#e67ed4;
+  font-size: 20px;
+}
