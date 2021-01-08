@@ -12,6 +12,7 @@
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-spinners": "^0.10.4",
     "react-tabs": "^3.1.2",
     "react-world-flags": "^1.4.0",
     "web-vitals": "^0.2.4"

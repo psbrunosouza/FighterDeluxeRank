@@ -16,7 +16,7 @@ function Routes(){
       <Route path="/about" component={About}/> 
 
       <Route path={`/rankings/players`} exact component={Players}/>
-      {/* <Route path={`/rankings/clans`} exact component={Clans}/> */}
+      <Route path={`/rankings/clans`} exact component={Clans}/>
     </Switch>
 
 

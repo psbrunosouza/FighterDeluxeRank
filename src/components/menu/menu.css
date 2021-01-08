@@ -19,5 +19,11 @@
 
 .menu .menu-tabs .menu-item{
   margin: 0 10px 0 10px;
+  transition: 0.6s ease;
+}
+
+.menu .menu-tabs .menu-item:hover{
+  font-size: 32px;
+
 }
 

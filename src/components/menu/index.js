@@ -1,15 +1,20 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './menu.css';
 
 export default function Menu(){
+  
+  const menuStyle = {
+    color: '#FFD900',
+  }
+  
   return(
     <div className="menu">      
       <div className="menu-tabs">
-        <Link className="menu-item" to="/"> HOME </Link>
-        <Link className="menu-item" to="/rules"> RULES </Link>
-        <Link className="menu-item" to="/rankings"> RANKINGS </Link>
-        <Link className="menu-item" to="/about"> ABOUT </Link>
+        <NavLink activeStyle={menuStyle} exact className="menu-item" to="/"> HOME </NavLink>
+        <NavLink activeStyle={menuStyle} className="menu-item" to="/rules"> RULES </NavLink>
+        <NavLink activeStyle={menuStyle} className="menu-item" to="/rankings"> RANKINGS </NavLink>
+        <NavLink activeStyle={menuStyle} className="menu-item" to="/about"> ABOUT </NavLink>
       </div>
     </div>
   );
