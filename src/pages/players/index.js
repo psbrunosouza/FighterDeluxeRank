@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 import api from '../../services/api';
 import Flag from 'react-world-flags';
 import SyncLoader from "react-spinners/SyncLoader";
+import Navbar from '../../components/navbar';
 import './players.css';
-
 
 function Players(){
   
@@ -25,6 +25,7 @@ function Players(){
 
   return(
     <div className="players">
+      <Navbar/>
       <h1> PLAYERS RANKING </h1>
       
       <SyncLoader color="#fff" loading={isLoading} size={10} />

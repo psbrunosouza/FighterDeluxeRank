@@ -1,0 +1,57 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 100vw;
+  padding: 0 30px 0 30px;
+  animation-name: navbar-anim;
+  animation-duration: 0.5s;
+}
+
+@keyframes navbar-anim{
+  from {transform: translate3d(0,-60px ,0)}
+  to {transform: translate3d(0 ,0 ,0)}
+}
+
+.navbar .navbar-logo img{
+  width: 120px;
+}
+
+.navbar .title{
+  text-align: center;
+}
+
+
+.navbar .nav-tabs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.navbar .nav-tabs .nav-item{
+  margin: 0 10px 0 10px;
+  transition: 0.6s ease;
+  font-size: 20px;
+}
+
+.navbar .nav-tabs .nav-icon-youtube, .navbar .nav-tabs .nav-icon-discord{
+  margin: 0 10px 0 10px;
+  font-size: 20px;
+}
+
+.navbar .nav-tabs .nav-icon-youtube:hover i{
+  color: #c4302b;
+  transition: 0.6s ease;
+}
+
+.navbar .nav-tabs .nav-icon-discord:hover i{
+  color: #7289DA;
+  transition: 0.6s ease;
+}
+
+.navbar .nav-tabs .nav-item:hover{
+  font-size: 24px;
+  color: #FD4001 !important;
+}
+

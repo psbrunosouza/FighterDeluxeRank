@@ -9,17 +9,16 @@ import Clans from './pages/clans';
 
 function Routes(){
   return (
-    <Switch>
-      <Route path="/" exact component={Home}/>
-      <Route path="/rankings" exact component={Rankings}/>
-      <Route path="/rules" component={Rules}/>
-      <Route path="/about" component={About}/> 
-
-      <Route path={`/rankings/players`} exact component={Players}/>
-      <Route path={`/rankings/clans`} exact component={Clans}/>
-    </Switch>
-
-
+    <div>
+      <Switch> 
+        <Route path="/" exact component={Home}/>
+        <Route path="/rankings" exact component={Rankings}/>
+        <Route path="/rules" component={Rules}/>
+        <Route path="/about" component={About}/> 
+        <Route path={`/rankings/players`} exact component={Players}/>
+        <Route path={`/rankings/clans`} exact component={Clans}/>
+      </Switch>
+    </div>
   );
 
 

@@ -11,7 +11,6 @@ export default function Menu(){
   return(
     <div className="menu">      
       <div className="menu-tabs">
-        <NavLink activeStyle={menuStyle} exact className="menu-item" to="/"> HOME </NavLink>
         <NavLink activeStyle={menuStyle} className="menu-item" to="/rules"> RULES </NavLink>
         <NavLink activeStyle={menuStyle} className="menu-item" to="/rankings"> RANKINGS </NavLink>
         <NavLink activeStyle={menuStyle} className="menu-item" to="/about"> ABOUT </NavLink>
