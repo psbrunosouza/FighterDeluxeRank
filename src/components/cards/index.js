@@ -3,7 +3,7 @@ import './cards.css';
 
 function Cards({content, imgURL, URL}){
   return (
-    <Link to={URL}>
+    <Link to="#">
       <div className="card">
         <div className="card-body"> 
             <img src={imgURL} alt=""/>

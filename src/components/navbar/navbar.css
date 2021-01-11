@@ -8,6 +8,10 @@
   animation-duration: 0.5s;
 }
 
+.hidden{
+  display: none;
+}
+
 @keyframes navbar-anim{
   from {transform: translate3d(0,-60px ,0)}
   to {transform: translate3d(0 ,0 ,0)}
